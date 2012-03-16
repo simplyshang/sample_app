@@ -1,0 +1,114 @@
+.container {
+	width: 710px;
+}
+
+body {
+	background-image: url(/../images/first_aid_kit.png);
+}
+
+header {
+	padding-top: 20px;
+}
+
+header img {
+	padding: 1em;
+}
+
+section {
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px 18px;
+	background-color: #fff;
+	border: 2px solid #f2f2f2
+}
+
+/*links*/
+
+a {
+	color: #e96821;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e96821;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #e96821;
+	text-decoration: none;
+}
+
+/*navigation*/
+
+nav {
+	float: right;
+	background-color: #fff;
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.2em;
+}
+
+nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+nav ul li a:visited {
+	color: #e96821;
+}
+
+nav ul li a:hover {
+	color: #e96821;
+	text-decoration: underline;
+}
+
+/*sign up button*/
+a.signup_button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 190px;
+	color: #e96821;
+	background-color: #f2f2f2;
+	font-size: 150%;
+	font-weight: bold;
+	padding: 20px;
+	text-decoration: none;
+	border: 2px #ebebeb solid;
+}
+
+a.signup_button:hover {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 190px;
+	color: #e96821;
+	background-color: #ebebeb;
+	font-size: 150%;
+	font-weight: bold;
+	padding: 20px;
+	text-decoration: none;
+	border: 2px #f2f2f2 solid;
+}
+
+/*round corners*/
+.round {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
