@@ -44,8 +44,9 @@ a:visited {
 nav {
 	float: right;
 	background-color: #fff;
-	padding: 0 0.7em;
+	padding: 0 0.5em;
 	white-space: nowrap;
+	border: 2px solid #f2f2f2;
 }
 
 nav ul {
@@ -111,4 +112,15 @@ a.signup_button:hover {
 	border-radius: 5px;
 }
 
+/*footer*/
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 706px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+footer nav {
+	float: none;
+}
